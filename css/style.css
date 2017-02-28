@@ -217,4 +217,8 @@ iframe {
   height: 80vh;
   overflow: scroll; }
 
+#display img {
+  width: 200px;
+  height: 200px; }
+
 /*# sourceMappingURL=style.css.map */
