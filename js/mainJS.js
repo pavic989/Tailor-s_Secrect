@@ -33,9 +33,9 @@ function sleep(){
 }
 
 function makeText(){
-  var text = "Sublime Text";
-  var text1 = "Brackets";
-  var text2 = "Atom";
+  var text = "Dobrodošli u krojačk salon";
+  var text1 = "Tailo's secret";
+  var text2 = "Mi ispunjavamo vaše snove";
 
   var stext = text.split('');
   var stext1 = text1.split('');
@@ -54,7 +54,7 @@ var i = 0;
 function start(){
   if(ar[i].length > 0){
     scroll.innerHTML += ar[i].shift();
-    loop = setTimeout(start,400);  // speed settings
+    loop = setTimeout(start,100);  // speed settings
   } else {
     var ss = setTimeout(sleep , 2000);
   }
