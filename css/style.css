@@ -6,7 +6,7 @@ section {
   height: 100vh; }
 
 footer {
-  background: red; }
+  background: #fff; }
 
 #first {
   background: url(../img/home-background.jpg) center no-repeat;
@@ -61,6 +61,9 @@ footer {
       transform: perspective(900px) rotateY(0deg); }
 
 #contact {
+  background: -webkit-linear-gradient(#ED6985, #fff);
+  background: -o-linear-gradient(#ED6985, #fff);
+  background: linear-gradient(#ED6985, #fff);
   background: #ED6985;
   padding: 10px; }
 
@@ -221,5 +224,8 @@ iframe {
   margin: 10px;
   width: 200px;
   height: 200px; }
+#display h1 {
+  font-size: 30px;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
