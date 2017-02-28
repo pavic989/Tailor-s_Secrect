@@ -65,7 +65,7 @@ footer {
   padding: 10px; }
 
 #gallery {
-  background: #fff; }
+  background: #ba55d3; }
 
 .open {
   position: fixed;
@@ -212,7 +212,7 @@ iframe {
     font-family: "Lobster", cursive; }
 
 .displayImg {
-  background: blue;
+  background: #663399;
   margin-right: 5px;
   height: 80vh;
   overflow: scroll; }
