@@ -32,7 +32,8 @@ footer {
     #about .spanAlign p {
       font-family: "Lobster", cursive;
       line-height: 2;
-      float: left; }
+      float: left;
+      font-size: 20px; }
     #about .spanAlign .box {
       width: 300px;
       height: 302px;
