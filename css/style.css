@@ -70,9 +70,13 @@ footer {
   background: linear-gradient(#ED6985, #fff);
   background: #ED6985;
   padding: 10px; }
+  #contact h1 {
+    font-family: "Lobster", cursive;
+    font-size: 30px; }
 
 #gallery {
-  background: #ba55d3; }
+  background: #ba55d3;
+  overflow: scroll; }
   #gallery h1 {
     font-size: 30px;
     font-family: "Lobster", cursive;
@@ -226,8 +230,7 @@ iframe {
 .displayImg {
   background: #ba55d3;
   margin-right: 5px;
-  height: 80vh;
-  overflow: scroll; }
+  height: 80vh; }
 
 #display img {
   margin: 10px;
