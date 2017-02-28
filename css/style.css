@@ -16,7 +16,10 @@ footer {
   font-weight: bold;
   color: #B35353; }
   #first h1 {
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-family: "Lobster", cursive; }
+  #first h2 {
+    font-family: "Lobster", cursive; }
 
 #about {
   background: pink; }
@@ -70,6 +73,11 @@ footer {
 
 #gallery {
   background: #ba55d3; }
+  #gallery h1 {
+    font-size: 30px;
+    font-family: "Lobster", cursive;
+    color: #fff;
+    padding-top: 5px; }
 
 .open {
   position: fixed;
