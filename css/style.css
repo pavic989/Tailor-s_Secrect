@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   body h1 {
     font-size: 15px; }
   body h2 {
@@ -26,13 +26,13 @@
       #about .spanAlign p {
         line-height: 1.5;
         float: left;
-        font-size: 12px !important; }
+        font-size: 10px !important; }
     #about .box {
-      width: 200px;
-      height: 200px; }
+      width: 200px !important;
+      height: 200px !important; }
       #about .box img {
-        width: 200px;
-        height: 202px; } }
+        width: 200px !important;
+        height: 202px !important; } }
 #main {
   padding: 0; }
 
