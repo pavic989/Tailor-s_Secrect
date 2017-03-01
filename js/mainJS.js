@@ -16,7 +16,8 @@ $(document).ready(function() {
 $(document).ready(function(){
   $('.addBtn').click(function(e){
     e.preventDefault();
-    $("#display").load($(this).attr('href')).fadeIn();
+    $("#display").load($(this).attr('href'));
+    $('.img-thumbnail').fadeIn(2000);
   });
 });
 
