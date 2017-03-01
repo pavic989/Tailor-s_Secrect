@@ -63,3 +63,12 @@ function start(){
 start();
 
 // Animate #first
+
+$('li a').on('click', function(){
+  $('.open').addClass('cls');
+  setTimeout(function () { 
+    $('.open').removeClass('cls');
+}, 1000);
+})
+
+// Close menu on click
