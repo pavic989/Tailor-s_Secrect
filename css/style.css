@@ -1,3 +1,57 @@
+@media only screen and (max-width: 500px) {
+  body h1 {
+    font-size: 15px; }
+  body h2 {
+    font-size: 12px; }
+  body p {
+    font-size: 10px; }
+
+  #about .spanAlign .logo {
+    width: 80px;
+    height: 80px; }
+  #about .spanAlign p {
+    line-height: 1; }
+
+  .address {
+    margin-top: 20px; }
+    .address span {
+      font-size: 12px; }
+    .address p {
+      font-size: 10px; }
+
+  #about {
+    background: pink; }
+    #about .spanAlign {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 50vh; }
+      #about .spanAlign .box {
+        width: 200px;
+        height: 202px;
+        margin: auto;
+        position: relative; }
+      #about .spanAlign .logo {
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 202px;
+        position: absolute;
+        transition: transform 1s linear;
+        backface-visibility: hidden; }
+      #about .spanAlign .back {
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 202px;
+        position: absolute;
+        transform: perspective(900px) rotateY(180deg);
+        backface-visibility: hidden;
+        transition: transform 1s linear; }
+      #about .spanAlign .box:hover > .logo {
+        transform: perspective(900px) rotateY(180deg); }
+      #about .spanAlign .box:hover > .back {
+        transform: perspective(900px) rotateY(0deg); } }
 #main {
   padding: 0; }
 

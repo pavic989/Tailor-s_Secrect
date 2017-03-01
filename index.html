@@ -12,20 +12,20 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="open"> 
-			<span class="cls"></span> 
-				<span>
-					<ul class="sub-menu ">
-						<li><a href="#first" data-scroll>Pocetna</a></li>
-					    <li><a href="#about" data-scroll>O nama</a></li>				<!-- Menu -->
-						<li><a href="#gallery" data-scroll>Galerija</a></li>
-						<li><a href="#contact" data-scroll>Kontakt</a></li>
-				 </ul>
-			</span> 
-		<span class="cls"></span> 
-	</div> <!-- End .open -->
 	<div class="container-fluid">
 		<div class="row">
+			<div class="open"> 
+				<span class="cls"></span> 
+					<span>
+						<ul class="sub-menu ">
+							<li><a href="#first" data-scroll>Pocetna</a></li>
+						    <li><a href="#about" data-scroll>O nama</a></li>				<!-- Menu -->
+							<li><a href="#gallery" data-scroll>Galerija</a></li>
+							<li><a href="#contact" data-scroll>Kontakt</a></li>
+					 	</ul>
+					</span> 
+				<span class="cls"></span> 
+			</div> <!-- End .open -->
 			<main id="main" class="col-xs-12">
 				<section id="first">
 					<h1 class="text-center">Tailor's Secret</h1>
@@ -49,7 +49,7 @@
 					<h1 class="text-center">Neke od nasih kreacija</h1><hr>
 					<button type="button" class="addBtn btn btn-warning" href="templates/vencanice.html">Vencanice</button>
 					<button type="button" class="addBtn btn btn-warning" href="templates/haljine.html">Haljine</button>
-					<div id="display" class="displayImg col-xs-9 col-offset-1">
+					<div id="display" class="displayImg col-xs-12 col-sm-12 col-md-9 col-lg-9 col-offset-1">
 						<h1 class="text-center">Izaberite kategoriju koju zelite da vidite</h1>
 					</div>
 				</section> <!-- /#gallery -->
@@ -101,8 +101,8 @@
 	   				</form>
 	   				</div>
 	   					<!-- Google map -->
-					<div class="container">
-						<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EitNYWprZSBKdWdvdmnEh2EgMTEsIEtydcWhZXZhYyAzNzAwMCwgU3JiaWph&key=AIzaSyCW_KZp3hAKkNFxwg6l5PnRLJ3Eitq7X7M" allowfullscreen></iframe>
+					<div class="col-xs-12">
+						<iframe class="hidden-xs" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EitNYWprZSBKdWdvdmnEh2EgMTEsIEtydcWhZXZhYyAzNzAwMCwgU3JiaWph&key=AIzaSyCW_KZp3hAKkNFxwg6l5PnRLJ3Eitq7X7M" allowfullscreen></iframe>
 	   					<address class="address">
 	   						<p><span class="glyphicon glyphicon-user"></span>Vlasnik salona: Vesna Jović</p>
 	   						<p><span class="glyphicon glyphicon-envelope"></span>Email: tailor_secret@gmail.com</p>

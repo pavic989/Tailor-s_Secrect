@@ -1,0 +1,55 @@
+@media only screen and (max-width: 500px)
+	body
+		h1
+			font-size: 15px
+		h2
+			font-size: 12px
+		p
+			font-size: 10px
+	#about
+		.spanAlign
+			.logo
+				width: 80px
+				height: 80px
+			p
+				line-height: 1
+	.address
+		margin-top: 20px
+		span
+			font-size: 12px
+		p
+			font-size: 10px
+	#about 
+		background: pink
+		.spanAlign 
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+			height: 50vh
+			.box
+				width: 200px
+				height: 202px
+				margin: auto
+				position: relative
+			.logo 
+				left: 0
+				top: 0
+				width: 200px
+				height: 202px
+				position: absolute
+				transition: transform 1s linear
+				backface-visibility: hidden
+			.back 
+				left: 0
+				top: 0
+				width: 200px
+				height: 202px
+				position: absolute
+				transform: perspective(900px) rotateY(180deg)
+				backface-visibility: hidden
+				transition: transform 1s linear
+			.box:hover > .logo 
+				transform: perspective(900px) rotateY(180deg)
+			.box:hover > .back 
+				transform: perspective(900px) rotateY(0deg)
+
