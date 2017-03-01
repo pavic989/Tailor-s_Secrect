@@ -10,14 +10,15 @@
     width: 80px;
     height: 80px; }
   #about .spanAlign p {
-    line-height: 1; }
+    line-height: 1;
+    font-size: 12px; }
 
-  .address {
+  #contact .address {
     margin-top: 0; }
-    .address span {
-      font-size: 10px; }
-    .address p {
-      font-size: 10px; }
+    #contact .address span {
+      font-size: 14px; }
+    #contact .address p {
+      font-size: 14px; }
 
   #about {
     background: pink; }
