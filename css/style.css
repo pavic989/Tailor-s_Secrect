@@ -13,9 +13,9 @@
     line-height: 1; }
 
   .address {
-    margin-top: 20px; }
+    margin-top: 0; }
     .address span {
-      font-size: 12px; }
+      font-size: 10px; }
     .address p {
       font-size: 10px; }
 
