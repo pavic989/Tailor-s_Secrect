@@ -33,6 +33,41 @@
       #about .box img {
         width: 200px !important;
         height: 202px !important; } }
+@media only screen and (max-width: 800px) {
+  body h1 {
+    font-size: 18px; }
+  body h2 {
+    font-size: 16px; }
+  body p {
+    font-size: 14px; }
+
+  #contact .address {
+    margin-top: 0; }
+    #contact .address span {
+      font-size: 16px; }
+    #contact .address p {
+      font-size: 16px; }
+
+  #about {
+    background: pink; }
+    #about .spanAlign {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 50vh; }
+      #about .spanAlign h1 {
+        margin-top: 10px;
+        font-size: 20px; }
+      #about .spanAlign p {
+        line-height: 1.5;
+        float: left;
+        font-size: 10px !important; }
+    #about .box {
+      width: 200px !important;
+      height: 200px !important; }
+      #about .box img {
+        width: 200px !important;
+        height: 202px !important; } }
 #main {
   padding: 0; }
 
