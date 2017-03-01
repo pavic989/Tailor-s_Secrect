@@ -26,7 +26,13 @@
       #about .spanAlign p {
         line-height: 1.5;
         float: left;
-        font-size: 12px !important; } }
+        font-size: 12px !important; }
+    #about .box {
+      width: 200px;
+      height: 200px; }
+      #about .box img {
+        width: 200px;
+        height: 202px; } }
 #main {
   padding: 0; }
 
