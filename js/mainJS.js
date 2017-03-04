@@ -16,7 +16,7 @@ $(document).ready(function() {
 $(document).ready(function(){
   $('.addBtn').click(function(e){
     e.preventDefault();
-    $("#display").load($(this).attr('href'));
+    $("#display").load($(this).attr('href')).hide().fadeIn('slow');
   });
 });
 
