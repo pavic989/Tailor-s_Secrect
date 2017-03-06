@@ -126,13 +126,13 @@ footer {
       width: 300px;
       height: 302px;
       position: absolute;
-      transform: perspective(900px) rotateY(180deg);
+      transform: rotateY(180deg);
       backface-visibility: hidden;
       transition: transform 1s linear; }
     #about .spanAlign .box:hover > .logo {
-      transform: perspective(900px) rotateY(180deg); }
+      transform: rotateY(180deg); }
     #about .spanAlign .box:hover > .back {
-      transform: perspective(900px) rotateY(0deg); }
+      transform: rotateY(0deg); }
 
 #contact {
   background: -webkit-linear-gradient(#ED6985, #fff);
